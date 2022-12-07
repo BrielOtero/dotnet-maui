@@ -5,6 +5,7 @@
              x:Class="MonkeyFinder.View.MainPage">
 
     <CollectionView>
+
         <CollectionView.ItemsSource>
             <x:Array Type="{x:Type model:Monkey}">
                 <model:Monkey 
@@ -21,6 +22,7 @@
                     Location="Central and East Africa"/>
             </x:Array>
         </CollectionView.ItemsSource>
+
         <CollectionView.ItemTemplate>
             <DataTemplate x:DataType="model:Monkey">
                 <HorizontalStackLayout Padding="10">
@@ -36,6 +38,7 @@
                 </HorizontalStackLayout>
             </DataTemplate>
         </CollectionView.ItemTemplate>
+
     </CollectionView>
 
 
